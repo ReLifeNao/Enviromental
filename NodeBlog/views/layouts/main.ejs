@@ -15,29 +15,31 @@
 </head>
 <body>
     
-    <div class='container-xxl px-md-5 bg-white shadow-lg'>
+    <div class='container-fluid px-md-0 bg-white shadow-lg'>
 
-        <header class='d-flex flex-wwrap align-items-centerjustify-content-center justify-content-md-between py-3 mb-4 border-bottom'>
-            <a href="/" class='d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none'>
+        <header class='d-flex flex-wwrap align-items-center justify-content-center justify-content-md-between py-2 mb-4 border-bottom sticky-top bg-white'>
+            <a href="/" class='d-flex align-items-center col-md-3 mb-md-0 text-dark text-decoration-none'>
                 
-                <img src="/img/logo.svg" alt="NodeBlog - Made with Nodejs" width="109" height="68">
-                <b>NodeBlog</b>
+                <img src="/img/ambiente.svg" alt="NodeBlog - Made with Nodejs" width="180" height="120">
+                
                 
                 
             </a>
 
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="/" class='nav-link px-2 link-secondary'>Home</a></li>
-                <li><a href="/about" class='nav-link px-2 link-secondary'>About</a></li>
-                <li><a href="/submit-article" class='nav-link px-2 link-secondary'>Submit</a></li>
-                <li><a href="/contact" class='nav-link px-2 link-secondary'>Contact</a></li>
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center align-items-center mb-md-0 px-md-5">
+                <li><a href="/" class='nav-link px-4 link-success fs-6 text-green-50 hoverMebottom button2'><i class="bi bi-house-fill px-2"></i><b>Inicio</b></a></li><b></b>
+                <li><a href="/about" class='nav-link px-4 link-success fs-6 text-green-50 '><b>Nosotros</b></a></li>
+                <li><a href="/contact" class='nav-link px-4 link-success fs-6 text-green-50'><b>Contacto</b></a></li>
+                <li><a href="/contact" class='nav-link px-4 link-success fs-6 text-green-50'><b>Servicios</b></a></li>
+                <li>
+                    <a href="/facebook" class='d-inline nav-link link-success text-green-50 '><i class="bi bi-facebook fs-4"></i></a>
+                    <a href="/wasap" class='d-inline nav-link link-success text-green-50 p-0'><i class="bi bi-whatsapp fs-4"></i></a>
+                    
+                </li>
+                
             </ul>
 
-            <div class='col-md-3 text-end'>
-                <form method='POST' action="/search">
-                    <input type="search" name="searchTerm" class="form-control" placeholder="Search..." aria-label="Search"> 
-                </form>
-            </div>
+            
 
         </header>
 
@@ -50,6 +52,8 @@
         </footer>
 
     </div>
+
+    
     
     
 

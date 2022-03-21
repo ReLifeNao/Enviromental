@@ -1,7 +1,43 @@
 :root{
-    --bs-font-sans-serif: 'Rubik', sans-serif;
+    --bs-font-sans-serif: 'Signika Negative', sans-serif;
+    --bs-success: #55c08e; 
 
 }
+html{
+    margin: 0;
+    margin-left: 0%;
+    margin-right: 0;
+}
+
+/*color: rgb(60,179,113);*/
+.text-green-50{
+    color: rgb(105, 136, 221);
+    
+}
+
+.button2{
+    
+    
+    
+    position:relative;
+    
+    
+  }
+  .hoverMebottom:after{
+    position:absolute;
+    top:100%;
+    left:0%;
+    width:0;
+    height:2px;
+    background:#222;
+    display:block;
+    content:'';
+    transition: width 0.5s ease-in-out;
+  }
+  .hoverMebottom:hover:after{
+    width:100%;
+  }
+
 
 .container-xxl{ max-width: 1350px;}
 body{
