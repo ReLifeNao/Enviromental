@@ -8,10 +8,27 @@ html{
     margin-left: 0%;
     margin-right: 0;
 }
-
+.someT{
+    background-color: #338860;
+    box-shadow: 12px 0 0px 0px #338860, -12px 0 0px 0px #338860;
+    font-size: 40px;
+}
+.someTi{
+    background-color: #1e2220;
+    box-shadow: 12px 0 0px 0px #1e2220, -12px 0 0px 0px #1e2220;
+    font-size: 40px;
+}
 /*color: rgb(60,179,113);*/
 .text-green-50{
     color: rgb(105, 136, 221);
+    
+}
+
+.carousel-caption{
+    left: 18%!important;
+    right: 59%!important;
+    top: 30%;
+    text-align: left;
     
 }
 

@@ -8,3 +8,10 @@ addIngredientsBtn.addEventListener('click', function(){
   input.value = '';
   ingredientList.appendChild(newIngredients);
 });
+
+
+var myCarousel = document.querySelector('#carouselExampleFade')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: false,
+  wrap: false
+})
