@@ -1,22 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
 :root{
-    --bs-font-sans-serif: 'Signika Negative', sans-serif;
+    --bs-font-sans-serif: 'Open Sans', sans-serif;
     --bs-success: #55c08e; 
 
+}
+.contac{
+    color: rgb(0, 111, 93);
+    border-radius: 30px;
+    border-color: rgb(255, 255, 255);
+    padding: 12px 30px;
+    padding-right: 27px!important;
+    background-color: rgba(255, 255, 255);
+    margin-top: 3%;
+    
+    
 }
 html{
     margin: 0;
     margin-left: 0%;
     margin-right: 0;
+    
 }
+
+.bi-chevron-double-right{
+    padding-left: 3px;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+    
+}
+
 .someT{
-    background-color: #338860;
-    box-shadow: 12px 0 0px 0px #338860, -12px 0 0px 0px #338860;
+    
+    box-shadow: 12px 0 0px 0px rgba(22, 22, 22, 0.7), -12px 0 0px 0px rgba(22, 22, 22, 0.7);
     font-size: 40px;
+    text-align: center;
+    background-color:rgba(22, 22, 22, 0.7);
+    font-weight: bold;
+    margin-left: 12px;
+    
+    
 }
+
 .someTi{
-    background-color: #1e2220;
-    box-shadow: 12px 0 0px 0px #1e2220, -12px 0 0px 0px #1e2220;
+    
+    box-shadow: 12px 0 0px 0px rgba(90, 196, 224, 0.7), -12px 0 0px 0px rgba(90, 196, 224, 0.7);
     font-size: 40px;
+    background-color:rgba(90, 196, 224, 0.7);
+    margin-left: 12px;
+
 }
 /*color: rgb(60,179,113);*/
 .text-green-50{
@@ -25,9 +59,9 @@ html{
 }
 
 .carousel-caption{
-    left: 18%!important;
-    right: 59%!important;
-    top: 30%;
+    left: 20%!important;
+    right: 49%!important;
+    top: 26%;
     text-align: left;
     
 }
@@ -60,6 +94,7 @@ html{
 body{
     background-image: url("/img/bgN.jpg");
     background-color: rgb(243, 243, 243);
+    
 }
 
 a {color:var(--bs-dark);}
