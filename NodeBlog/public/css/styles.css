@@ -13,8 +13,15 @@
     margin: auto;
     
 }
+.servF{
+    box-shadow: 12px 0 0px 0px rgba(90, 196, 224, 0.7), -12px 0 0px 0px rgba(90, 196, 224, 0.7);
+    font-size: 40px;
+    background-color:rgba(90, 196, 224, 0.7);
+    margin-left: 12px;
+    
+}
  .services {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
@@ -25,14 +32,17 @@
     align-items: center;
     justify-content: space-between;
 }
+.title{
+    padding-bottom: 10%;
+}
 section .title{
     position: relative;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
-    padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 28px;
+    
 }
 section .title::before{
     content: "";
@@ -52,6 +62,7 @@ section .title::after{
     color: rgb(78, 230, 154);
     padding: 0 5px;
     background: #fff;
+    
     transform: translateX(-50%);
 }
 .services{
@@ -69,11 +80,7 @@ section .title::after{
 .teams .title::before{
     background: #fff;
 }
-.services .title::after,
-.teams .title::after{
-    background: #111;
-    content: "what i provide";
-}
+
 .services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -104,6 +111,9 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    font-family: 'Open Sans', sans-serif;
+    
+    
 }
 
 
@@ -167,7 +177,24 @@ html{
      box-sizing: border-box; 
     
 }
-
+.iconContact{
+    font-size: 3.5rem;
+    
+}
+.contactzone{
+    
+    text-align: center;
+}
+.enun{
+    font-weight: bold;
+    font-size: 26px;
+    color: rgb(38, 93, 177);
+}
+.enun2{
+    font-weight: bold;
+    font-size: 46px;
+    color: rgb(49, 143, 111);
+}
 .someT{
     
     box-shadow: 12px 0 0px 0px rgba(22, 22, 22, 0.7), -12px 0 0px 0px rgba(22, 22, 22, 0.7);
@@ -181,11 +208,11 @@ html{
 }
 
 .someTi{
-    
     box-shadow: 12px 0 0px 0px rgba(90, 196, 224, 0.7), -12px 0 0px 0px rgba(90, 196, 224, 0.7);
     font-size: 40px;
     background-color:rgba(90, 196, 224, 0.7);
     margin-left: 12px;
+    
 
 }
 /*color: rgb(60,179,113);*/
